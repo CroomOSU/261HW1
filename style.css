@@ -1,17 +1,27 @@
 
 .rowHeader {
-    font-style: italic;
-    text-align: center; 
+  font-style: italic;
+  text-align: center; 
 }
 
-td{
-    border-style: double;
+td {
+  border-style: double;
 }
 
 td:nth-of-type(odd) {
-    background-color: aliceblue;
+  background-color: aliceblue;
 }
 
 td:nth-of-type(even) {
-    background-color: chartreuse;
+  background-color: chartreuse;
+}
+
+#outerDiv {
+  width: 75%;
+  background-color: pink;
+}
+
+#innerDiv {
+  width: 75%;
+  background-color: blue;
 }
