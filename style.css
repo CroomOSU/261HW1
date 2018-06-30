@@ -1,27 +1,39 @@
 
+/* Table formatting */
+
 .rowHeader {
   font-style: italic;
   text-align: center; 
 }
 
 td {
-  border-style: double;
+  border-style: ridge;
+}
+  
+th {
+  border-style: ridge;
 }
 
-td:nth-of-type(odd) {
+tbody>tr:nth-of-type(odd) {
   background-color: aliceblue;
 }
 
-td:nth-of-type(even) {
+tbody>tr:nth-of-type(even) {
   background-color: chartreuse;
 }
 
+/* div centering info was found here
+http://www.tipue.com/blog/center-a-div/ */
+
 #outerDiv {
   width: 75%;
+  padding: 20px;
   background-color: pink;
 }
 
 #innerDiv {
   width: 75%;
-  background-color: blue;
+  margin: auto;
+  background-color: lightblue;
+  text-align: center;
 }
