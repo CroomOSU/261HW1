@@ -4,6 +4,7 @@
 .rowHeader {
   font-style: italic;
   text-align: center; 
+  font-weight: normal;
 }
 
 td {
